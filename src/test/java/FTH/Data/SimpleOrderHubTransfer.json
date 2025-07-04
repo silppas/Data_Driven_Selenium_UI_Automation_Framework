@@ -1,0 +1,18 @@
+{
+  "source" : "Bangalore",
+  "storelist" :   [
+   "Butchery-Ban-Lala ",
+   "Express-Blr-Indiranagar ",
+],		
+  "destination": "Express-Blr-Indiranagar ",
+  "products": [
+    2456,
+    1805
+  ],
+  "bulkaddproducts" : [
+    "3131,1",
+    "2849,1"
+  ],
+  "carttotal":1329
+}
+

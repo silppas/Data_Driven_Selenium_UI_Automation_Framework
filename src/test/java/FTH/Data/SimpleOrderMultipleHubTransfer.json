@@ -1,0 +1,22 @@
+{
+  "source" : "Bangalore",
+  "storelist" :   [
+   "[7] Express-Blr-Koramangala ",
+   "[23] Express-Blr-Indiranagar "
+   
+],		
+  "destination": [
+  "[7] Express-Blr-Indiranagar",
+  "[23] Express-Blr-Koramangala"
+  ],
+  "products": [
+    2456,
+    1805
+  ],
+  "bulkaddproducts" : [
+    "3131,1",
+    "2849,1"
+  ],
+  "carttotal":1329
+}
+
