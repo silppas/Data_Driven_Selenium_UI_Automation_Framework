@@ -1,0 +1,19 @@
+{
+  "mobile": "555555555",
+  "customerid" : "151",
+  "orderstore" : "UAE",
+  "storelist" :   [
+   "UAE ",
+   "Express-UAE-Dubai "
+],		
+  "products": [
+    730,
+    732
+  ],
+  "bulkaddproducts" : [
+    "777,1",
+    "825,1"
+  ],
+  "carttotal":1329
+}
+

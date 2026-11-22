@@ -1,0 +1,11 @@
+{
+vendor:"Flipkart Vendor",
+pickup:"Flipkart Hub",
+drop:"1-Blr-Indira-Express",
+userRole: "BB Admin",
+shipmentFor:"1001",
+source:"rtv_request",
+beforeShipmentAcceptStatus:"shipped",
+afterShipmentAcceptStatus:"FINALIZED",
+address:"Flipkart Hub Address1, Address 2, Address 3, Contact Person: Fth admin, Contact Number: +919999999999"
+}
