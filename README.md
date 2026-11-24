@@ -1,4 +1,4 @@
-# regressionSuite
+# Selenium + Java + TestNG + Maven + UI + Automation
 
 A scalable Selenium WebDriver automation framework developed using Java, TestNG, and Maven. The framework follows Page Object Model design principles and demonstrates reusable components, data-driven testing, test execution management, reporting, and failure handling.
 
@@ -14,7 +14,7 @@ A scalable Selenium WebDriver automation framework developed using Java, TestNG,
 
 ## Framework structure
 
-```text
+
 regressionSuite/
 ├── pom.xml
 ├── regressionSuite.xml
@@ -31,7 +31,7 @@ regressionSuite/
             ├── BaseComponent/         # Shared test setup and WebDriver initialization
             ├── Data/                  # JSON test data
             └── Test/                  # TestNG test classes
-```
+
 
 ### Main files
 
