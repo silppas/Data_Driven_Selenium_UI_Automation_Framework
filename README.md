@@ -12,7 +12,7 @@ A scalable Selenium WebDriver automation framework developed using Java, TestNG,
 - ExtentReports for HTML execution reports
 - Chrome browser
 
-## Framework structure
+## Automation Framework structure
 
 
 regressionSuite/
