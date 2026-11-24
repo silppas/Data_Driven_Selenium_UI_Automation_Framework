@@ -6,16 +6,8 @@
     <listener class-name="FTH.Util.ExtentReportListener"/>
    </listeners>
   <test name = "Regression"  thread-count="3" >
-    
     <classes>
-   
-       <class name="FTH.Test.SimpleOrderStockTransferCreate"/>
-       <class name="FTH.Test.SalesOrderCreate"/>
-        <class name="FTH.Test.SimpleOrderCustomerCreate"/>
-       <class name="FTH.Test.StockMovement"/>
-       <class name="FTH.Test.simpleOrderMultipleHubTransferCreate"/> 
-       <class name="FTH.Test.SimpleOrderHubTransferCreate"/>
-      
+       <class name="FTH.Test.TestRegistration"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

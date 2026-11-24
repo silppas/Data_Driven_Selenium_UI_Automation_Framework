@@ -1,0 +1,11 @@
+[
+{
+"gender":"male",
+"firstName":"Shilpa",
+"lastName":"S",
+"email":"shilpas@gmail.com",
+"company":"ABC Company",
+"password":"password",
+"confirmPassword":"password"
+}
+]

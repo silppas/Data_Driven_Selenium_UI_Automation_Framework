@@ -61,9 +61,8 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		 pro = abstractObj.getGlobalProperties();
-		server = pro.getProperty("server");
 		url = pro.getProperty("url");
-		driver.get("https://" + server + url);
+		driver.get(url);
 	    waitForPageToLoad(driver);
 	    PageFactory.initElements(driver, this);
 	}
