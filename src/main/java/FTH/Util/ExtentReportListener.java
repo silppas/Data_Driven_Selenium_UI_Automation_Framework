@@ -57,7 +57,14 @@ public class ExtentReportListener implements ITestListener {
 
 	    @Override
 	    public void onTestSuccess(ITestResult result) {
+			WebDriver driver = (WebDriver) result.getTestContext().getAttribute("WebDriver");
 	        test.get().pass("✅ Test Passed: " + result.getMethod().getMethodName());
+			if (driver != null) {
+	        	String screenshotPath = captureScreenshot(driver, result.getMethod().getMethodName());
+	            test.get().addScreenCaptureFromPath(screenshotPath);
+	        } else {
+	            test.get().fail("WebDriver instance is null !, cannot capture screenshot.");
+	        }
 	    }
 
 	    @Override
