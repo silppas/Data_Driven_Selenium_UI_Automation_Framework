@@ -32,6 +32,7 @@ regressionSuite/
             ├── Data/                  # JSON test data
             └── Test/                  # TestNG test classes
 
+```
 
 ### Main files
 
