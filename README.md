@@ -14,7 +14,7 @@ A scalable Selenium WebDriver automation framework developed using Java, TestNG,
 
 ## Automation Framework structure
 
-
+```text
 regressionSuite/
 ├── pom.xml
 ├── regressionSuite.xml
